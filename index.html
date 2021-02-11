@@ -2,13 +2,11 @@
 	<head>
 		<title>iamjawa</title>
 		<link rel="icon" type="image/x-icon" href="./img/favicon.ico"/>
-		<!-- Google Icons -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!-- FontAwesome CDN -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+		<link rel="preload" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 		<!-- CSS -->
-		<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<link type="text/css" rel="preload" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+		<link type="text/css" rel="preload" href="css/main.css">
 		<!-- Viewports -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
@@ -20,7 +18,7 @@
 			<span class="icon"><i class="fas fa-moon" id="darkmode" onclick="darkMode()"></i></span>
 		</div>
 
-		<script src="js/main.js"></script>
+		<script defer src="js/main.js"></script>
 	</body>
 
 </html>

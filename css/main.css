@@ -1,11 +1,13 @@
 @font-face {
 	font-family: CoreCircus;
 	src: url(../fonts/corecircusrough.ttf);
+	font-display: swap;
 }
 
 @font-face {
 	font-family: NexaBold;
 	src: url(../fonts/NexaBold.otf);
+	font-display: swap;
 }
 
 body {
