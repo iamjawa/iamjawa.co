@@ -1,6 +1,6 @@
 function darkMode() {
-	const icon = document.getElementById("darkmode");
 	const body = document.body;
+	const icon = document.getElementById("darkmode");
 	const logo = document.getElementById("logo");
 	const desc = document.getElementById("desc");
 
@@ -16,3 +16,7 @@ function darkMode() {
 		desc.removeAttribute("class");
 	}
 }
+
+particlesJS.load('particles-js', 'js/particlesconfig.json', function() {
+  console.log('callback - particles.js config loaded');
+});
