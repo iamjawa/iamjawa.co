@@ -1,12 +1,12 @@
 @font-face {
-	font-family: CoreCircus;
-	src: url(../fonts/corecircusrough.ttf);
+	font-family: NexaBold;
+	src: url(../fonts/NexaBold.otf);
 	font-display: swap;
 }
 
 @font-face {
-	font-family: NexaBold;
-	src: url(../fonts/NexaBold.otf);
+	font-family: PoppinsMed;
+	src: url(../fonts/Poppins-Medium.ttf);
 	font-display: swap;
 }
 
@@ -54,7 +54,7 @@ i {
 	margin: 0;
 	padding: 1vh;
 	font-size: 4vh;
-	font-family: NexaBold;
+	font-family: Poppins;
 	color: rgb(245,223,77) !important;
 	text-decoration: none;
 	z-index: 1;
@@ -65,7 +65,7 @@ i {
 	margin: 0;
 	padding: 1vh;
 	font-size: 4vh;
-	font-family: NexaBold;
+	font-family: Poppins;
 	color: black;
 	text-decoration: none;
 	z-index: 1;
