@@ -9,14 +9,20 @@ function darkMode() {
 		body.className = "darkmode";
 		logo.className = "darkmodeLogo";
 		desc.className = "darkmodeDesc";
+		particlesJS.load('particles-js', 'js/particlesconfig.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
 	} else {
 		icon.className = "far fa-moon";
 		body.removeAttribute("class");
 		logo.removeAttribute("class");
 		desc.removeAttribute("class");
+		particlesJS.load('particles-js', 'js/particlesconfigLight.json', function() {
+			console.log('callback - particles.js light config loaded');
+		});
 	}
 }
 
 particlesJS.load('particles-js', 'js/particlesconfig.json', function() {
-  console.log('callback - particles.js config loaded');
+	console.log('callback - particles.js config loaded');
 });
