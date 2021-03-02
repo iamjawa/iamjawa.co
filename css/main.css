@@ -1,12 +1,11 @@
 @font-face {
-	font-family: NexaBold;
-	src: url(../fonts/NexaBold.otf);
-	font-display: swap;
-}
-
-@font-face {
 	font-family: PoppinsMed;
-	src: url(../fonts/Poppins-Medium.ttf);
+    	src: url('../fonts/Poppins-Medium.eot');
+    	src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        	url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        	url('../fonts/Poppins-Medium.woff') format('woff'),
+        	url('../fonts/Poppins-Medium.ttf') format('truetype'),
+        	url('../fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
 	font-display: swap;
 }
 
