@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+body, .content, .container-1 {
+    display: grid;
+}
+
+body {
+    background-color: #6667ab;
+    min-height: 100%;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.github-link {
+    color: #F9FAF8;
+    margin: auto;
+    font-size: 10vh;
+}
